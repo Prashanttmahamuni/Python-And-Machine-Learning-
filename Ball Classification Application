@@ -12,7 +12,7 @@ def MarvellousML(weight, surface):
 
     result = clf.predict([[weight, surface]])
 
-    if result == 1:
+    if result == 1:  
         print("Your Object looks like a Tennis Ball")
     elif result == 2:
         print("Your Object looks like a Cricket Ball")
